@@ -7,6 +7,7 @@ data_dict = {row.letter: row.code for (index, row) in data.iterrows()}
 # print(data_dict)
 
 # TODO 2. Create a list of the phonetic code words from a word that the user inputs.
+<<<<<<< HEAD
 
 def generate_phonetic():
     user_code = input("Enter a Word? : ").upper()
@@ -19,3 +20,9 @@ def generate_phonetic():
         print(phonetic_list)
 
 generate_phonetic()
+=======
+user_code = input("Enter a Word? : ").upper()
+
+phonetic_list = [data_dict[letter] for letter in user_code]
+print(phonetic_list)
+>>>>>>> 93a405b5f8851de99ab237c9565f9052d37bd75b
