@@ -2,7 +2,6 @@ import requests
 from datetime import datetime
 import os
 
-
 APP_ID = os.environ.get("APP_ID_SHEETY")
 API_KEY = os.environ.get("API_KEY_SHEETY")
 SHEETY_ENDPOINT = os.environ.get("SHEETY_ENDPOINT")
