@@ -4,8 +4,8 @@ import datetime as dt
 import random
 import pandas
 
-my_email = "lcisco608@gmail.com"
-password = "efzkuokitmeundas"
+my_email = ""
+password = ""
 
 now = dt.datetime.now()
 today = (now.month, now.day)

@@ -1,12 +1,12 @@
 # import smtplib
 
-# my_email = "lcisco608@gmail.com"
-# password = "efzkuokitmeundas"
+# my_email = ""
+# password = ""
 #
 # with smtplib.SMTP_SSL("smtp.gmail.com", 465) as connection:
 #     connection.ehlo()
 #     connection.login(user=my_email, password=password)
-#     connection.sendmail(from_addr=my_email, to_addrs="kikolove824@yahoo.com",
+#     connection.sendmail(from_addr=my_email, to_addrs="",
 #                         msg="Subject:Hello\n\nThis is the body of the email")
 
 import datetime as dt
